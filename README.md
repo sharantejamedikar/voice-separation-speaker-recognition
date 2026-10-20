@@ -1,33 +1,17 @@
 # Voice Separation and Speaker Recognition
 
-This project was developed as part of my audio deep learning work, focusing on building an end-to-end pipeline for voice separation and speaker recognition using PyTorch and Librosa.
+A documentation-only record of an earlier audio project whose stated topic is voice separation and speaker recognition.
 
-## Overview
+## What this repository demonstrates
 
-The system processes raw speech audio, applies preprocessing and augmentation, and trains deep learning models to recognise speakers from short audio segments. It also explores techniques to improve voice isolation quality over baseline approaches.
+The repository contains this README and a licence. It preserves the project topic, but does not include implementation code, dependency files, notebooks, datasets, trained models, evaluation outputs or experimental logs.
 
-## Key Features
+It therefore does not independently demonstrate a working separation or speaker-recognition pipeline. Specific technologies, preprocessing methods, augmentation, model architectures and evaluation procedures cannot be verified from the files currently published here.
 
-- Audio loading, preprocessing and augmentation using Librosa
-- Dataset preparation and train/validation split for speaker recognition
-- Deep learning models implemented with PyTorch
-- Training and evaluation workflows for classification
-- Analysis scripts for accuracy metrics and error patterns
+## Evidence status
 
-## Technologies Used
+No sample-count, classification-accuracy or voice-isolation improvement metric is reported here. Those claims require primary experimental artefacts, including the data split, evaluation method and recorded results, before they can be reinstated.
 
-- Python  
-- PyTorch  
-- Librosa  
-- NumPy  
-- Pandas  
+## Running the project
 
-## Project Impact
-
-- Trained on approximately 2,000+ audio samples  
-- Achieved around 85–88% classification accuracy for speaker recognition on validation data  
-- Improved voice isolation performance by an estimated 18–22% over baseline models  
-
-## Note
-
-This repository focuses on the core modelling and experimentation pipeline. Raw datasets or licensed audio files are either referenced externally or excluded to respect data usage policies.
+There is no runnable implementation or reproducible experiment in this repository. Setup instructions can be added when implementation and dependency information are available.
